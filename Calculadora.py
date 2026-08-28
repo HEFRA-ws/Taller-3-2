@@ -7,6 +7,25 @@ def mostrar_menu():
     print("5. Salir")
 
 
+
+
+
+def sumar():
+    numero1 = float(input("Ingrese el primer número: "))
+    numero2 = float(input("Ingrese el segundo número: "))
+    resultado = numero1 + numero2
+    print(f"Resultado: {resultado}")
+
+
+def multiplicar():
+    numero1 = float(input("Ingrese el primer número: "))
+    numero2 = float(input("Ingrese el segundo número: "))
+    resultado = numero1 * numero2
+    print(f"Resultado: {resultado}")
+
+
+
+
 def main():
     while True:
         mostrar_menu()
